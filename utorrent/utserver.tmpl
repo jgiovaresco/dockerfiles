@@ -1,0 +1,12 @@
+preferred_interface: eth0
+ut_webui_port: {{ .Env.WEBUI_PORT }}
+ut_webui_dir: /home/utorrent/utorrent-server
+token_auth_enable: true
+admin_name: {{ .Env.ADMIN_NAME }}
+admin_password: {{ .Env.ADMIN_PASSWORD }}
+dir_active: /data/utorrent/incoming
+dir_completed: /data/utorrent/complete
+dir_autoload: /data/utorrent/queue
+dir_autoload_delete: true
+dir_torrent_files: /data/utorrent/torrent_files
+dir_temp_files: /data/utorrent/temp_files
